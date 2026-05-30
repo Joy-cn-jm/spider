@@ -1,0 +1,6 @@
+# 方案 A: 纯 Playwright
+playwright>=1.40
+
+# 方案 B: Scrapling（推荐）
+# 安装后还需运行: scrapling install
+scrapling[fetchers]>=0.4
